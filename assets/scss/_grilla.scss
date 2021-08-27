@@ -1,0 +1,48 @@
+body{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 3fr 50px;
+    font-family: 'Raleway', sans-serif;
+    background: #F2F1F1;
+    @extend %reset_b;
+}
+
+.acerca-de-mi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.presentacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-div-form{
+    display: grid;
+    align-content: stretch;
+    align-items: center;
+    background-color: #f1e2e4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.grid-form{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}

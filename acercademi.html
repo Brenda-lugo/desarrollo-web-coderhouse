@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <title>Acerca de mi</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="cabecera">
+            <div>
+            <p class="cabecera__parrafo--opacity cabecera__parrafo--logoGrande"><a href="index.html">Brenda Ayelén Lugo</a></p>
+            <p class="cabecera__parrafo--opacity cabecera__parrafo--logoChico"><a href="index.html">BAL</a></p>
+            </div>
+            <div class="cabecera__menu">
+                <ul class="cabecera__menu__lista--listTypeNone">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acercademi.html">Acerca de mi</a></li>
+                    <li>Portfolio
+                        <ul>
+                            <li><a href="portfolio.html">Opción 1</a></li>
+                            <li><a href="404.html">Opción 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>     
+    </header>
+    
+    <section>
+        <div class="container__audio">
+            <audio controls autoplay loop>
+                <source src="./assets/audio/audioUno.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide col-xxl-4 col-xl-6 col-md-6 col-sm-8" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/personalUno.jpg" class="d-block w-100 filtro1 img-fluid d-block m-l-none rounded" alt="desarrolladora freelancer de sitios web">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/personalUno.jpg" class="d-block w-100 filtro2 img-fluid d-block m-l-none rounded" alt="programacion de sitios web">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/personalUno.jpg" class="d-block w-100 filtro3 img-fluid d-block m-l-none rounded" alt="portfolio de desarrolladora web">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                  </div>
+
+                <!-- <div class="col-xxl-6 text-center">
+                    <img class="imagen img-fluid rounded" src="./assets/img/personalUno.jpg" alt="">
+                </div> -->
+                
+                <div class="col-xxl-8 col-xl-6 col-md-6 col-sm-4">
+                    <h4><strong>Acerca de mi</strong></h4>
+                    <p>Me considero una persona divertida, responsable y autoexigente.Recientemente conocí el mundo del Marketing Digital y 
+                    posteriormente el <strong>Desarrollo web</strong>, los cuales me despiertan gran interés y ganas de aprender cada vez más para poder 
+                    perfeccionarme y dedicarme de lleno a este gran mundo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p class="footer__parrafo--color">Todos los derechos reservados - 2021</p>
+        </div>
+    </footer>
+
+<!-- scripts -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>

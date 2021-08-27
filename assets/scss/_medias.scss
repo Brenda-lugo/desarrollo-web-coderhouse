@@ -1,0 +1,55 @@
+@media (max-width: 1024px) {
+    body{
+        background: #9be2d8;;
+    }
+    .centrarTexto{
+        width:100%;
+    }
+
+    .presentacion{
+    display: grid;
+    grid-template-columns: auto;
+    align-content: stretch;
+    height: 100vh;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        background: #eff7b2;
+    }
+    .centrarTexto{
+        width:100%;
+    }
+
+    .presentacion{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        align-content: center;
+        align-items: stretch;
+    }
+
+    .headerContent{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) {
+    .cabecera__parrafo--logoChico{
+        display: none;
+    }
+}
+
+@media (max-width:599px){
+    .cabecera__parrafo--logoGrande{
+        display: none;
+    }
+}
+
+@media (max-width: 1399px){
+
+    .imagen{
+        width: 40%;
+    }
+}

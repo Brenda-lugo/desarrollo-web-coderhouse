@@ -1,0 +1,52 @@
+$rosita: #ECD4D7;
+$negro: #232323;
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px solid #ceacac;
+    background-color: $rosita;
+    animation-duration: 6s;
+    animation-name: footer;
+    align-items: center;
+}
+
+.footer > div > p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer__parrafo--color{
+    color: $negro;
+}
+
+@keyframes footer {
+    0% {
+        background-image: linear-gradient(to left, #bd64b6, #f17f7f);
+    }
+
+    10% {
+        background-image: linear-gradient(to left, #bd64b6, #cc8686);
+    }
+
+    30% {
+        background-image: linear-gradient(to left, #bd64b6, #e0a8a8);
+    }
+
+    50% {
+        background-image: linear-gradient(to left, #bd64b6, #ce9f9f);
+    }
+
+    70% {
+        background-image: linear-gradient(to left, #bd64b6, #f0cfcf);
+    }
+
+    90% {
+        background-image: linear-gradient(to left, #bd64b6, #b86f6f);
+    }
+
+    100%{
+        background-image: linear-gradient(to left, #f17f7f, #bd64b6);
+    }
+}

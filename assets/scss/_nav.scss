@@ -1,0 +1,79 @@
+$rosita: #ECD4D7;
+$negro: #232323;
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cabecera__menu > ul{
+    display: flex;
+}
+
+form > div > p {
+    text-align: center;
+}
+
+.cabecera__menu > ul > li{
+    padding-right: 10px;
+}
+
+/* .cabecera__menu{
+    position: absolute;
+    top: 11px;
+    right: 0px;
+} */
+
+/* .cabecera__menu ul li {
+    display: inline-block;
+    padding-right: 10px;
+} */
+
+.cabecera > div > p{
+    margin-top: 14px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.cabecera > div > p > a{
+    color: rgb(202, 59, 190);
+}
+
+.cabecera > div > p > a:hover{
+    color: rgb(75, 121, 230);
+}
+
+.cabecera{
+    background-color: $rosita;
+    padding: 10px;
+    box-shadow: 0 1px 2px 0 #FFFFFF;
+}
+
+.cabecera > div > p{
+    animation-duration: 4s;
+    animation-name: logo;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

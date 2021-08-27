@@ -1,0 +1,20 @@
+{
+  "name": "clase11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/styleSCSS.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css-bootstrap": "node-sass --include-path scss assets/scssBootstrap/bootstrap.scss assets/css/bootstrap.css",
+    "watch-css-bootstrap": "nodemon -e scss -x \"npm run build-css-bootstrap\""
+
+  },
+  "author": "Brenda Lugo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
